@@ -28,6 +28,9 @@ public:
     void bodyMidLH(bool startSave=false);
     void bodyBotLH(bool startSave=false);
 
+    void teteMort(void);
+    QColor same(int c=0);
+
 private:
     Ui::MainWindow *ui;
     YColorLedCluster *led;
